@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "poppins";
+  src: url("../font/Poppins-Regular.ttf");
+}
+
+@layer base {
+  html {
+    font-family: "poppins";
+  }
+}
+
+@layer components {
+  .form-control-login {
+    @apply p-2 border shadow-sm rounded-md focus:outline-none border-slate-300 placeholder-slate-400 focus:border-[#9896F0] transition ease-in-out focus:ring-1 focus:ring-[#9896F0];
+  }
+  .form-control-register {
+    @apply p-2 border shadow-sm rounded-md focus:outline-none border-slate-300 placeholder-slate-400 focus:border-[#5D69BE] transition ease-in-out focus:ring-1 focus:ring-[#5D69BE];
+  }
+  .active {
+    @apply bg-red-400;
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../font/Poppins-Regular.ttf");
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100vh;
+  font-family: "Poppins-Regular";
+}
+
+/* @media screen and (min-width: 700px) {
+  img.img-login {
+    width: 100%;
+    height: 900px;
+    display: block;
+  }
+} */
+/* html {
+    height: 100vh;
+  }
+  
+  body {
+    min-height: 100vh;
+  } */
